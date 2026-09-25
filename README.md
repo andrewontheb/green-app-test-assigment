@@ -10,7 +10,7 @@ This application uses the Green API to create a WhatsApp-like messenger.
 
 1. Clone the repository:
     ```sh
-    git clone https://github.com/andrewontheb/green-api-app.git
+    git clone https://github.com/andrewontheb/green-app-test-assigment.git
     ```
 2. Navigate to the project directory:
     ```sh
@@ -26,10 +26,9 @@ This application uses the Green API to create a WhatsApp-like messenger.
     ```
 ## Configuration
 
-Create a `.env` file in the root directory and add your Green API credentials:
+Open a `.env` file in the root directory and paste api url of your instance if provided doesn't work:
 ```
-VITE_ID_INSTANCE=your_api_key
-VITE_API_TOKEN_INSTANCE=your_api_secret
+VITE_API_URL = https://api.green-api.com
 ```
 
 ## Usage
